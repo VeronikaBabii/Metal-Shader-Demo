@@ -13,6 +13,19 @@
 		94FEF65A2ADEA75D0037C789 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FEF6582ADEA75D0037C789 /* Main.storyboard */; };
 		94FEF65C2ADEA7610037C789 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94FEF65B2ADEA7610037C789 /* Assets.xcassets */; };
 		94FEF65F2ADEA7610037C789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94FEF65D2ADEA7610037C789 /* LaunchScreen.storyboard */; };
+		94FEF66A2ADEA7A20037C789 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEF6692ADEA7A20037C789 /* Light.swift */; };
+		94FEF66C2ADEA7B80037C789 /* Uniforms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEF66B2ADEA7B80037C789 /* Uniforms.swift */; };
+		94FEF66E2ADEA7D50037C789 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEF66D2ADEA7D50037C789 /* Vertex.swift */; };
+		94FEF6712ADEA7FF0037C789 /* float4x4Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEF6702ADEA7FF0037C789 /* float4x4Extension.swift */; };
+		94FEF6742ADEA82B0037C789 /* Shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 94FEF6732ADEA82B0037C789 /* Shaders.metal */; };
+		94FEF6772ADEA9230037C789 /* big_grid_chair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 94FEF6762ADEA9230037C789 /* big_grid_chair.usdz */; };
+		94FEF6792ADEA9380037C789 /* black_swivel_desk_chair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 94FEF6782ADEA9380037C789 /* black_swivel_desk_chair.usdz */; };
+		94FEF67B2ADEA9440037C789 /* banded_chevron_rug_8x10.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 94FEF67A2ADEA9440037C789 /* banded_chevron_rug_8x10.usdz */; };
+		94FEF67D2ADEA9E90037C789 /* MetalRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEF67C2ADEA9E90037C789 /* MetalRenderer.swift */; };
+		94FEF67F2ADEAD100037C789 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEF67E2ADEAD100037C789 /* ModelManager.swift */; };
+		94FEF6812ADEAFFE0037C789 /* ModelConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEF6802ADEAFFE0037C789 /* ModelConfig.swift */; };
+		94FEF6832ADEB0910037C789 /* VertexData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEF6822ADEB0910037C789 /* VertexData.swift */; };
+		94FEF6852ADEB0A50037C789 /* ModelWithData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FEF6842ADEB0A50037C789 /* ModelWithData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,19 @@
 		94FEF65B2ADEA7610037C789 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94FEF65E2ADEA7610037C789 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		94FEF6602ADEA7610037C789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94FEF6692ADEA7A20037C789 /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		94FEF66B2ADEA7B80037C789 /* Uniforms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uniforms.swift; sourceTree = "<group>"; };
+		94FEF66D2ADEA7D50037C789 /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		94FEF6702ADEA7FF0037C789 /* float4x4Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = float4x4Extension.swift; sourceTree = "<group>"; };
+		94FEF6732ADEA82B0037C789 /* Shaders.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shaders.metal; sourceTree = "<group>"; };
+		94FEF6762ADEA9230037C789 /* big_grid_chair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = big_grid_chair.usdz; sourceTree = "<group>"; };
+		94FEF6782ADEA9380037C789 /* black_swivel_desk_chair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = black_swivel_desk_chair.usdz; sourceTree = "<group>"; };
+		94FEF67A2ADEA9440037C789 /* banded_chevron_rug_8x10.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = banded_chevron_rug_8x10.usdz; sourceTree = "<group>"; };
+		94FEF67C2ADEA9E90037C789 /* MetalRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalRenderer.swift; sourceTree = "<group>"; };
+		94FEF67E2ADEAD100037C789 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		94FEF6802ADEAFFE0037C789 /* ModelConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelConfig.swift; sourceTree = "<group>"; };
+		94FEF6822ADEB0910037C789 /* VertexData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VertexData.swift; sourceTree = "<group>"; };
+		94FEF6842ADEB0A50037C789 /* ModelWithData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelWithData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +85,65 @@
 				94FEF6522ADEA75D0037C789 /* AppDelegate.swift */,
 				94FEF6542ADEA75D0037C789 /* SceneDelegate.swift */,
 				94FEF6562ADEA75D0037C789 /* ViewController.swift */,
+				94FEF6862ADEBCF00037C789 /* Helpers */,
+				94FEF6662ADEA7690037C789 /* Models */,
+				94FEF66F2ADEA7EA0037C789 /* Extensions */,
+				94FEF6722ADEA81F0037C789 /* Shaders */,
+				94FEF6752ADEA90C0037C789 /* Resources */,
 				94FEF6582ADEA75D0037C789 /* Main.storyboard */,
 				94FEF65B2ADEA7610037C789 /* Assets.xcassets */,
 				94FEF65D2ADEA7610037C789 /* LaunchScreen.storyboard */,
 				94FEF6602ADEA7610037C789 /* Info.plist */,
 			);
 			path = "Impressit-Test-Task";
+			sourceTree = "<group>";
+		};
+		94FEF6662ADEA7690037C789 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				94FEF66D2ADEA7D50037C789 /* Vertex.swift */,
+				94FEF6822ADEB0910037C789 /* VertexData.swift */,
+				94FEF6692ADEA7A20037C789 /* Light.swift */,
+				94FEF66B2ADEA7B80037C789 /* Uniforms.swift */,
+				94FEF6802ADEAFFE0037C789 /* ModelConfig.swift */,
+				94FEF6842ADEB0A50037C789 /* ModelWithData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		94FEF66F2ADEA7EA0037C789 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				94FEF6702ADEA7FF0037C789 /* float4x4Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		94FEF6722ADEA81F0037C789 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				94FEF6732ADEA82B0037C789 /* Shaders.metal */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		94FEF6752ADEA90C0037C789 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94FEF67A2ADEA9440037C789 /* banded_chevron_rug_8x10.usdz */,
+				94FEF6782ADEA9380037C789 /* black_swivel_desk_chair.usdz */,
+				94FEF6762ADEA9230037C789 /* big_grid_chair.usdz */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		94FEF6862ADEBCF00037C789 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				94FEF67C2ADEA9E90037C789 /* MetalRenderer.swift */,
+				94FEF67E2ADEAD100037C789 /* ModelManager.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +204,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94FEF6772ADEA9230037C789 /* big_grid_chair.usdz in Resources */,
 				94FEF65F2ADEA7610037C789 /* LaunchScreen.storyboard in Resources */,
 				94FEF65C2ADEA7610037C789 /* Assets.xcassets in Resources */,
+				94FEF6792ADEA9380037C789 /* black_swivel_desk_chair.usdz in Resources */,
 				94FEF65A2ADEA75D0037C789 /* Main.storyboard in Resources */,
+				94FEF67B2ADEA9440037C789 /* banded_chevron_rug_8x10.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +220,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94FEF6742ADEA82B0037C789 /* Shaders.metal in Sources */,
+				94FEF6712ADEA7FF0037C789 /* float4x4Extension.swift in Sources */,
 				94FEF6572ADEA75D0037C789 /* ViewController.swift in Sources */,
 				94FEF6532ADEA75D0037C789 /* AppDelegate.swift in Sources */,
+				94FEF6852ADEB0A50037C789 /* ModelWithData.swift in Sources */,
+				94FEF66A2ADEA7A20037C789 /* Light.swift in Sources */,
+				94FEF67D2ADEA9E90037C789 /* MetalRenderer.swift in Sources */,
 				94FEF6552ADEA75D0037C789 /* SceneDelegate.swift in Sources */,
+				94FEF67F2ADEAD100037C789 /* ModelManager.swift in Sources */,
+				94FEF66C2ADEA7B80037C789 /* Uniforms.swift in Sources */,
+				94FEF6812ADEAFFE0037C789 /* ModelConfig.swift in Sources */,
+				94FEF66E2ADEA7D50037C789 /* Vertex.swift in Sources */,
+				94FEF6832ADEB0910037C789 /* VertexData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +379,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V28569HS5K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Impressit-Test-Task/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +407,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V28569HS5K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Impressit-Test-Task/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
